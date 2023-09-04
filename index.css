@@ -111,3 +111,13 @@ footer {
     font-size: 30px;
     color: #5f29a3;
 }
+
+@media screen and (min-width: 420px) {
+    .container {
+        width: 420px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
