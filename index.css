@@ -18,32 +18,27 @@ h1, h3 {
     margin: 0;
 }
 
+h3 {
+    color: #d0aaff;
+    font-size: 20px;
+}
+
 h1 {
     font-size: 36px;
     color: whitesmoke;
 }
 
-h2 {
-    margin-top: 0;
-}
-
-h3 {
-    font-size: 20px;
-    color: #d0aaff;
-}
 
 p {
     line-height: 23px;
 }
 
+a {
     color: #ef5839;
     text-decoration: none;
     text-decoration: underline dotted;
 }
 
-a:hover, :active {
-    color: #d4b44c;
-}
 
 header, section, footer {
     padding: 45px 0;
@@ -104,20 +99,42 @@ footer {
     text-align: center;
 }
 
-.social {
-    display: flex;
+.social a{
+    display: inline-block;
     justify-content: center;
-    gap: 100px;
+    padding: 0 25px 10px 25px;
     font-size: 30px;
     color: #5f29a3;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 420px) {
+    
     .container {
-        width: 420px;
+        width: 350px;
+        padding: 0 8px;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .main-image {
+        width: 92%;
+    }
+
+    .feature-image {
+        width: 170px;
+    }
+
+    .section-two-image-container {
+        display: inline; 
     }
 }
